@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lucida Console', monospace;
+    margin: 0px;
+    padding: 0px;
+    background: #343d46;
+    ;
+    overflow: hidden;
+}
+
+.box {
+    width: 700px;
+    height: 400px;
+    background: #efefd0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1,
+p {
+    margin: 0px;
+    padding: 0px;
+    color: #ff6b35;
+    text-align: center;
+}
+
+.box h1 {
+    padding-top: 150px;
+    color: #ff6b35;
+    font-size: 50px;
+    font-family: 'Lucida Console', monospace;
+}
+
+.box p {
+    font-family: 'Lucida Console', monospace;
+    margin: 0px;
+    padding: 0px;
+}
